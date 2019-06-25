@@ -1,0 +1,37 @@
+{
+  "name": "hooks-to-others",
+  "version": "0.0.1",
+  "source": "src/index.tsx",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "license": "MIT",
+  "author": {
+    "name": "Victor",
+    "url": "https://github.com/beizhedenglong"
+  },
+  "repository": "https://github.com/beizhedenglong/hooks-to-others",
+  "scripts": {
+    "start": "parcel example/index.html --out-dir exampleDist",
+    "build": "libpacker",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^8.0.3",
+    "@types/jest": "^24.0.15",
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "eslint": "^5.16.0",
+    "eslint-plugin-victor": "^0.0.7",
+    "eslint-plugin-zero": "^0.0.7",
+    "jest": "^24.8.0",
+    "libpacker": "^0.0.12",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
